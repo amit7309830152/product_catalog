@@ -1,0 +1,13 @@
+{
+    // "extends":["eslint:recommended"], //it gives the recommended rules
+    "rules":{ // adding the rules
+        "semi":["error","always"] //which rules and what error at what condition
+    },
+    "parserOptions": {
+        "ecmaVersion": 2017 // setting the lint to the es6
+    },
+
+    "env": {
+        "es6": true // setting the lint to the es6
+    }
+}
